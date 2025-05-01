@@ -1,17 +1,16 @@
 import React from "react";
-import NavBar from "./components/Navbar";
-import Hero from "./components/hero";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import AirQualitySection from "./components/AirQualitySection";
 import CausesSection from "./components/CausesSection";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
 import ImpactSection from "./components/ImpactSection";
 import Solutions from "./components/Solutions";
-
+import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
-      <NavBar />
+      <Navbar />
       <Hero />
       <AirQualitySection />
       <CausesSection />
