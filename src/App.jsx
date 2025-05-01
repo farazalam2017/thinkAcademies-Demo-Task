@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import Hero from "./components/hero";
 import AirQualitySection from "./components/AirQualitySection";
 import CausesSection from "./components/CausesSection";
